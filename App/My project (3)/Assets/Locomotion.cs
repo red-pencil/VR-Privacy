@@ -14,17 +14,17 @@ public class Locomotion : MonoBehaviour
     float smooth = 5.0f;
     float tiltAngle = 60.0f;
 
-    public GameObject camera;
+    public GameObject m_head;
 
     Rigidbody m_Rigidbody;
-    public float m_Thrust = 200f;
+    public float m_Thrust = 300f;
 
     // Start is called before the first frame update
     void Start()
     {
          //Fetch the Rigidbody from the GameObject with this script attached
         m_Rigidbody = GetComponent<Rigidbody>();
-
+        m_Thrust = 300f;
         
     }
 
@@ -58,16 +58,17 @@ public class Locomotion : MonoBehaviour
 
         Quaternion target = Quaternion.Euler(tiltAroundX, 0, tiltAroundZ);
 
-        camera.transform.Rotate(v, h, 0);
+        m_head.transform.Rotate(v, h, 0);
 
-        Debug.Log("X:"+Input.GetAxis("Mouse X"));
-        Debug.Log("Y:"+Input.GetAxis("Mouse Y"));
-        Debug.Log(camera.transform.rotation.eulerAngles);
+        //Debug.Log("X:"+Input.GetAxis("Mouse X"));
+        //Debug.Log("Y:"+Input.GetAxis("Mouse Y"));
+        //Debug.Log(GetComponent<Camera>().transform.rotation.eulerAngles);
 
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             //Apply a force to this Rigidbody in direction of this GameObjects up axis
             m_Rigidbody.AddForce(transform.up * m_Thrust);
+            m_head.transform.rotation.SetLookRotation(Vector3.forward, Vector3.up);
         }
 
 
