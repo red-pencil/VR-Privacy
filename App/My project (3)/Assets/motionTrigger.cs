@@ -7,46 +7,64 @@ public class motionTrigger : MonoBehaviour
 
 
     public Vector3 rotateAxis = new Vector3 (0.0f, 0.0f, 0.0f);
-    public GameObject rotateTargetOne;
+    public GameObject rotateObjectOne;
     public int rotateAngleOne;
-    public GameObject rotateTargetTwo;
+    public GameObject rotateObjectTwo;
     public int rotateAngleTwo;
     public float doorAngleDisplayOne;
     public float doorAngleDisplayTwo;
 
+
+    public Transform from;
+    public Transform to;
+    private float timeCount = 0.0f;
+
+
     // Start is called before the first frame update
     void Start()
     {
-
+        from = rotateObjectOne.transform;
+        to = rotateObjectOne.transform;
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        doorAngleDisplayOne = rotateTargetOne.transform.rotation.eulerAngles.y;
+        doorAngleDisplayOne = rotateObjectOne.transform.rotation.eulerAngles.y;
         doorAngleDisplayOne = (doorAngleDisplayOne <= 180)? doorAngleDisplayOne: doorAngleDisplayOne - 360;
-        doorAngleDisplayTwo = rotateTargetTwo.transform.rotation.eulerAngles.y;
+        doorAngleDisplayTwo = rotateObjectTwo.transform.rotation.eulerAngles.y;
         doorAngleDisplayTwo = (doorAngleDisplayTwo <= 180)? doorAngleDisplayTwo: doorAngleDisplayTwo - 360;
 
-        Debug.Log(doorAngleDisplayOne);
-        Debug.Log(doorAngleDisplayTwo);
+
+        //transform.rotation = Quaternion.Slerp(from.rotation, to.rotation, timeCount);
+        //timeCount = timeCount + Time.deltaTime;
+
+        //Debug.Log(doorAngleDisplayOne);
+        //Debug.Log(doorAngleDisplayTwo);
     }
 
     void OnTriggerEnter(Collider other)
     {
         string playerName = other.name;
+        
+        
+
+        Debug.Log("Enter!");
 
         switch (playerName)
         {
             case "DummyPlayer":
                 if (doorAngleDisplayOne != rotateAngleOne)
                 {
-                rotateTargetOne.transform.Rotate(Vector3.up, rotateAngleOne, Space.Self);
+                //rotateObjectOne.transform.Rotate(Vector3.up, rotateAngleOne, Space.Self);
+                from.rotation = Quaternion.AngleAxis(0, Vector3.up);
+                to.rotation = Quaternion.AngleAxis(rotateAngleOne, Vector3.up);
                 }
                 
                 if ((doorAngleDisplayTwo < rotateAngleTwo)&&(doorAngleDisplayTwo >= 0.0f))
                 {
-                rotateTargetTwo.transform.Rotate(Vector3.up, rotateAngleTwo, Space.Self);
+                rotateObjectTwo.transform.Rotate(Vector3.up, rotateAngleTwo, Space.Self);
                 }
 
                 break;
@@ -60,10 +78,11 @@ public class motionTrigger : MonoBehaviour
         string playerName = other.name;
         if (playerName == "DummyPlayer")
         {
+        Debug.Log("Exit!");
         yield return new WaitForSeconds(3);
-
-        rotateTargetOne.transform.Rotate(Vector3.up, -1*rotateAngleOne, Space.Self);
-        rotateTargetTwo.transform.Rotate(Vector3.up, -1*rotateAngleTwo, Space.Self);
+        
+        rotateObjectOne.transform.Rotate(Vector3.up, -1*rotateAngleOne, Space.Self);
+        rotateObjectTwo.transform.Rotate(Vector3.up, -1*rotateAngleTwo, Space.Self);
         }
     }
 }
