@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/AddOns/MgLEGO Santas Brickshop/Scenes/Santas Brickshop.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
