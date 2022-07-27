@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/PolygonOffice/Scene/Demo.unity
+- path: Assets/PolygonOffice/Scene/Privacy Demo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
