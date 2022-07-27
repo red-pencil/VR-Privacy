@@ -23,7 +23,7 @@ public class outdoorTrigger : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         string playerName = other.name;
-        Debug.Log(playerName);
+        //Debug.Log(playerName);
 
         switch (playerName)
         {
