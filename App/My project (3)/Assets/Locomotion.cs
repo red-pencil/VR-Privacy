@@ -16,13 +16,15 @@ public class Locomotion : MonoBehaviour
 
     public GameObject m_head;
 
-    Rigidbody m_Rigidbody;
+    public Rigidbody m_Rigidbody;
     public float m_Thrust = 300f;
 
     public float ratioH;
     public float ratioV;
     public int rangeH;
     public int rangeV;
+
+    public bool headFixed;
 
     // Start is called before the first frame update
     void Start()
@@ -64,6 +66,18 @@ public class Locomotion : MonoBehaviour
         ratioH = 2 * mousePos.x / Screen.width - 1;
         ratioV = 2 * mousePos.y / Screen.height - 1;
 
+        if (!headFixed)
+        {
         m_head.transform.localEulerAngles = new Vector3( ratioV * rangeV, ratioH * rangeH, 0);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            //Apply a force to this Rigidbody in direction of this GameObjects up axis
+            m_Rigidbody.AddForce(transform.up * m_Thrust);
+            m_head.transform.rotation.SetLookRotation(Vector3.forward, Vector3.up);
+        }
+
+
     }
 }
