@@ -19,12 +19,21 @@ public class Locomotion : MonoBehaviour
     Rigidbody m_Rigidbody;
     public float m_Thrust = 300f;
 
+    public float ratioH;
+    public float ratioV;
+    public int rangeH;
+    public int rangeV;
+
     // Start is called before the first frame update
     void Start()
     {
          //Fetch the Rigidbody from the GameObject with this script attached
         m_Rigidbody = GetComponent<Rigidbody>();
         m_Thrust = 300f;
+
+        
+        rangeH = 30;
+        rangeV = -45;
         
     }
 
@@ -48,33 +57,13 @@ public class Locomotion : MonoBehaviour
         
         
 
-        // Get the mouse delta. This is not in the range -1...1
-        //float h = horizontalSpeed * Input.GetAxis("Mouse X");
-        float h = 0.0f;
-        float v = -1 *verticalSpeed * Input.GetAxis("Mouse Y");
+        // Camera gaze direction controlled by mouse position / display size
+        // gaze direction typically -45 to +45
 
-        float tiltAroundZ = Input.GetAxis("Mouse Y") * tiltAngle;
-        float tiltAroundX = Input.GetAxis("Mouse X") * tiltAngle;
+        Vector3 mousePos = Input.mousePosition;
+        ratioH = 2 * mousePos.x / Screen.width - 1;
+        ratioV = 2 * mousePos.y / Screen.height - 1;
 
-        Quaternion target = Quaternion.Euler(tiltAroundX, 0, tiltAroundZ);
-
-        m_head.transform.Rotate(v, h, 0);
-
-        //Debug.Log("X:"+Input.GetAxis("Mouse X"));
-        //Debug.Log("Y:"+Input.GetAxis("Mouse Y"));
-        //Debug.Log(GetComponent<Camera>().transform.rotation.eulerAngles);
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            //Apply a force to this Rigidbody in direction of this GameObjects up axis
-            m_Rigidbody.AddForce(transform.up * m_Thrust);
-            m_head.transform.rotation.SetLookRotation(Vector3.forward, Vector3.up);
-        }
-
-
-        //if (Input.Keypress(Keycode.Space))
-        //{
-        //    camera.transform.rotation.SetLookRotation(vector3.forward, vector3.up)
-        //}
+        m_head.transform.localEulerAngles = new Vector3( ratioV * rangeV, ratioH * rangeH, 0);
     }
 }
