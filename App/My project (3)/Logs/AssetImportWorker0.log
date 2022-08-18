@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54855
+56065
 Successfully changed project path to: /Users/lichao/Documents/GitHub/VR-Privacy/App/My project (3)
 /Users/lichao/Documents/GitHub/VR-Privacy/App/My project (3)
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 137.60 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 9.11 ms.
+Refreshing native plugins compatible for Editor in 122.36 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 7.21 ms.
 Initialize engine version: 2020.3.36f1 (71f96b79b9f0)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/lichao/Documents/GitHub/VR-Privacy/App/My project (3)/Assets
 GfxDevice: creating device client; threaded=0
-2022-08-18 19:02:34.378 Unity[25169:414242] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2022-08-18 19:02:34.378 Unity[25169:414242] Metal devices available: 1
-2022-08-18 19:02:34.378 Unity[25169:414242] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2022-08-18 19:02:34.379 Unity[25169:414242] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2022-08-18 21:05:21.429 Unity[27314:476596] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2022-08-18 21:05:21.429 Unity[27314:476596] Metal devices available: 1
+2022-08-18 21:05:21.429 Unity[27314:476596] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2022-08-18 21:05:21.431 Unity[27314:476596] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56169
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56314
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001734 seconds.
+Registered in 0.002603 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 83.27 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.57 ms.
+Refreshing native plugins compatible for Editor in 91.57 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.49 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.060 seconds
+- Completed reload, in  0.912 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1060ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (912ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (809ms)
-			LoadAssemblies (124ms)
+		EndReloadAssembly (704ms)
+			LoadAssemblies (108ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (293ms)
+			SetupTypeCache (251ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (303ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (284ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (146ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007784 seconds.
+Registered in 0.009755 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.91 ms.
+Refreshing native plugins compatible for Editor in 2.28 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.67 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.769 seconds
+- Completed reload, in  2.024 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1771ms)
-		BeginReloadAssembly (233ms)
+	ReloadAssembly (2027ms)
+		BeginReloadAssembly (208ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1441ms)
-			LoadAssemblies (145ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1709ms)
+			LoadAssemblies (152ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (519ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (101ms)
-			SetupLoadedEditorAssemblies (501ms)
+			SetupTypeCache (499ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (326ms)
+			SetupLoadedEditorAssemblies (454ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (344ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (302ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.027529 seconds.
+Validating Project structure ... 0.021354 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.025324 seconds.
+Upgrading shader files ...0.023400 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -125,18 +125,18 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.36f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.48 ms.
-Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.7 MB.
-System memory in use after: 204.9 MB.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.5 MB.
+System memory in use after: 204.7 MB.
 
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 2502.
-Total: 3.639960 ms (FindLiveObjects: 0.200001 ms CreateObjectMapping: 0.086341 ms MarkObjects: 2.711795 ms  DeleteObjects: 0.641140 ms)
+Unloading 119 unused Assets to reduce memory usage. Loaded Objects now: 2503.
+Total: 5.763144 ms (FindLiveObjects: 0.373008 ms CreateObjectMapping: 0.125424 ms MarkObjects: 4.616456 ms  DeleteObjects: 0.647228 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -150,218 +150,138 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/PolygonOffice/Models/SM_Prop_PoolBall_04_Convex.asset
-  artifactKey: Guid(73d1b9c73dc933d4fb8b43c16e2123d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_PoolBall_04_Convex.asset using Guid(73d1b9c73dc933d4fb8b43c16e2123d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6af05a35b4a7c84ec12dbf28cb9878a') in 0.909975 seconds 
+  path: Assets/PolygonOffice/Models/SM_Prop_Fridge_01_Convex.asset
+  artifactKey: Guid(81b65da37d64dd34eaa3d20a71d67984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Models/SM_Prop_Fridge_01_Convex.asset using Guid(81b65da37d64dd34eaa3d20a71d67984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7e094fe3f1e6222e736c9a7805b5c6') in 0.838879 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000984 seconds.
-  path: Assets/PolygonOffice/Models/SM_Prop_TableFootball_01_Convex.asset
-  artifactKey: Guid(20e96a9076f31064d90b92f3ac5757a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_TableFootball_01_Convex.asset using Guid(20e96a9076f31064d90b92f3ac5757a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6177ddcd08e9f595e1f3759c02abf205') in 0.016551 seconds 
+  Time since last request: 0.001336 seconds.
+  path: Assets/PolygonOffice/Models/SM_Prop_Fridge_02_Convex 2.asset
+  artifactKey: Guid(6dc47a2e112cc3846b8bad0dd2fe3832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Models/SM_Prop_Fridge_02_Convex 2.asset using Guid(6dc47a2e112cc3846b8bad0dd2fe3832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab70b4ec09023dfcd065185a1cdd0162') in 0.019094 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/PolygonOffice/Models/SM_Prop_TableFootball_Ball_01_Convex.asset
-  artifactKey: Guid(7b8ab20792a3866438cdb7348a8daa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_TableFootball_Ball_01_Convex.asset using Guid(7b8ab20792a3866438cdb7348a8daa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca06991fa7699a563cf9ff1a098d552') in 0.042383 seconds 
+  Time since last request: 0.000371 seconds.
+  path: Assets/PolygonOffice/Models/SM_Prop_Fridge_02_Convex 1.asset
+  artifactKey: Guid(b1374ea3abfdf0048a181e283e7889cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Models/SM_Prop_Fridge_02_Convex 1.asset using Guid(b1374ea3abfdf0048a181e283e7889cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed1ceaf6334bc944509e24764b986c7') in 0.047788 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/PolygonOffice/Models/SM_Prop_PoolBall_02.fbx
-  artifactKey: Guid(d126987365fedb24bb5a2ccae14e9e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_PoolBall_02.fbx using Guid(d126987365fedb24bb5a2ccae14e9e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33ca4ccbeb15268924d52e313f9f985') in 0.302464 seconds 
+  Time since last request: 0.001307 seconds.
+  path: Assets/PolygonOffice/Models/SM_Prop_Fridge_02.fbx
+  artifactKey: Guid(f0acec595f5f77b479b28844d040f308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Models/SM_Prop_Fridge_02.fbx using Guid(f0acec595f5f77b479b28844d040f308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5861a9bd52737de5463122533647535') in 0.695529 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/PolygonOffice/Models/SM_Prop_Globe_01_Convex.asset
-  artifactKey: Guid(1d2102fedeeb5f3418393894f58f76c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_Globe_01_Convex.asset using Guid(1d2102fedeeb5f3418393894f58f76c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c199ef2ee87fe3c7d127f4bbc12b519') in 0.019044 seconds 
+  Time since last request: 0.000470 seconds.
+  path: Assets/PolygonOffice/Models/SM_Prop_Fridge_02_Convex.asset
+  artifactKey: Guid(0495224eda3b44b4ab872c88a0cf5f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Models/SM_Prop_Fridge_02_Convex.asset using Guid(0495224eda3b44b4ab872c88a0cf5f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb74c43f79b41ad3a0e111abdd63acd') in 0.037014 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/PolygonOffice/Models/SM_Prop_SwissBall_01.fbx
-  artifactKey: Guid(af453b993317c2e4989797a538db1768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_SwissBall_01.fbx using Guid(af453b993317c2e4989797a538db1768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad3de7df36d0fe922099e81ea8360e9') in 0.046021 seconds 
+  Time since last request: 0.001729 seconds.
+  path: Assets/PolygonOffice/Models/SM_Prop_Fridge_01.fbx
+  artifactKey: Guid(2e229aeefbd276a40a5347940abfe280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Models/SM_Prop_Fridge_01.fbx using Guid(2e229aeefbd276a40a5347940abfe280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c479c2eb64f8935d480a4df56b75102e') in 0.163930 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/PolygonOffice/Models/SM_Prop_FruitBowl_01_Convex.asset
-  artifactKey: Guid(c88d946ea7c3b0b428f159006b2f78bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_FruitBowl_01_Convex.asset using Guid(c88d946ea7c3b0b428f159006b2f78bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e662deb21d8548fc9033c59a6c1b28') in 0.036723 seconds 
+  Time since last request: 0.000918 seconds.
+  path: Assets/PolygonOffice/Models/SM_Prop_FruitBowl_01.fbx
+  artifactKey: Guid(4679b599df5340e42bb01c7814120164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Models/SM_Prop_FruitBowl_01.fbx using Guid(4679b599df5340e42bb01c7814120164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0e102102ca000a618ce6db69fb0177') in 0.067896 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/PolygonOffice/Models/SM_Prop_PoolBall_04.fbx
-  artifactKey: Guid(ff283742c3e1baa43b284e14eb433f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_PoolBall_04.fbx using Guid(ff283742c3e1baa43b284e14eb433f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029751ce3a50a04c08657751c758cbfc') in 0.065659 seconds 
+  Time since last request: 41.872000 seconds.
+  path: Assets/PolygonOffice/Models/SM_Prop_Cup_Coffee_Disposable_Cap_01.fbx
+  artifactKey: Guid(2db7c76bb9d1c1b41b7403252eaae69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Models/SM_Prop_Cup_Coffee_Disposable_Cap_01.fbx using Guid(2db7c76bb9d1c1b41b7403252eaae69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2ea1d569430a75f60a51dc2b4fc6f7') in 0.037637 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.021802 seconds.
-  path: Assets/PolygonOffice/Models/SM_Prop_TableFootball_Ball_01.fbx
-  artifactKey: Guid(a27805c0c491c634bbb6ba25a663cf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_TableFootball_Ball_01.fbx using Guid(a27805c0c491c634bbb6ba25a663cf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8702b48e0e4a7c26cbb4fdbfd96dfb7b') in 0.053170 seconds 
+  Time since last request: 0.000313 seconds.
+  path: Assets/PolygonOffice/Models/SM_Prop_Cup_Coffee_Disposable_Open_01_Convex.asset
+  artifactKey: Guid(381ee1de9973b2e4b8feba9d8e714a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Models/SM_Prop_Cup_Coffee_Disposable_Open_01_Convex.asset using Guid(381ee1de9973b2e4b8feba9d8e714a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3825e415891655b52fc671d0f8bd531') in 0.017629 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/PolygonOffice/Models/SM_Prop_TableTennis_Ball_01.fbx
-  artifactKey: Guid(5a531b4fd16bcd94bb2d292827f00e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_TableTennis_Ball_01.fbx using Guid(5a531b4fd16bcd94bb2d292827f00e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db640d0248cc75f368a2043a49c406be') in 0.042120 seconds 
+  Time since last request: 0.000309 seconds.
+  path: Assets/PolygonOffice/Models/SM_Prop_Cup_Coffee_Disposable_Closed_01_Convex.asset
+  artifactKey: Guid(54f0552710291bd4a99964d587facbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Models/SM_Prop_Cup_Coffee_Disposable_Closed_01_Convex.asset using Guid(54f0552710291bd4a99964d587facbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0223a9305fc9205559feaad2301934') in 0.026579 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/PolygonOffice/Models/SM_Prop_TableTennis_Ball_01_Convex.asset
-  artifactKey: Guid(078d5603e7c5732449676120199c429b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_TableTennis_Ball_01_Convex.asset using Guid(078d5603e7c5732449676120199c429b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72611ecd6ba805199f72edc90cc464c7') in 0.045235 seconds 
+  Time since last request: 0.000282 seconds.
+  path: Assets/PolygonOffice/Models/SM_Prop_Cup_Coffee_Disposable_Open_Full_01_Convex.asset
+  artifactKey: Guid(6b8b5c1ad71ef0242ac75368a59c10ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Models/SM_Prop_Cup_Coffee_Disposable_Open_Full_01_Convex.asset using Guid(6b8b5c1ad71ef0242ac75368a59c10ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3c15b66ef11d3b28578317bebdb78b') in 0.017341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000807 seconds.
+  path: Assets/PolygonOffice/Models/SM_Prop_Cup_Coffee_Disposable_Cap_01_Convex.asset
+  artifactKey: Guid(259acbabdfa708d46b6ac1cd6d8960c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Models/SM_Prop_Cup_Coffee_Disposable_Cap_01_Convex.asset using Guid(259acbabdfa708d46b6ac1cd6d8960c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69a3e7b5f281fe8326a6571699555bd') in 0.027716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/PolygonOffice/Models/SM_Prop_Cup_Coffee_Disposable_Closed_01.fbx
+  artifactKey: Guid(911586ccdc60421409a8e85c05fe0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Models/SM_Prop_Cup_Coffee_Disposable_Closed_01.fbx using Guid(911586ccdc60421409a8e85c05fe0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a8a4ce058a2103bf3a929c295baf9b') in 0.036625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000609 seconds.
+  path: Assets/PolygonOffice/Models/SM_Prop_Cup_Coffee_Disposable_Open_Full_01.fbx
+  artifactKey: Guid(40d396f75ce064640835ba8c0cfe2502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Models/SM_Prop_Cup_Coffee_Disposable_Open_Full_01.fbx using Guid(40d396f75ce064640835ba8c0cfe2502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7986dbe6f20446ab8c38c6c1f07b940') in 0.029113 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000254 seconds.
-  path: Assets/PolygonOffice/Models/SM_Prop_Minigolf_Ball_01_Convex.asset
-  artifactKey: Guid(3497462f6b276e64181d116eb0031041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_Minigolf_Ball_01_Convex.asset using Guid(3497462f6b276e64181d116eb0031041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c57accfa5ec5e5a4c36054f7c5662a') in 0.021448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/PolygonOffice/Models/SM_Prop_TableFootball_01.fbx
-  artifactKey: Guid(c945ff641322d98468c73b812e80296e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_TableFootball_01.fbx using Guid(c945ff641322d98468c73b812e80296e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bce459f28c8a871874c3cafd47d1e47') in 0.282260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/PolygonOffice/Models/SM_Prop_Minigolf_Ball_01.fbx
-  artifactKey: Guid(6e059c6b63381cf4b8549c25f3732e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_Minigolf_Ball_01.fbx using Guid(6e059c6b63381cf4b8549c25f3732e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d730b42c073178929f2ac27b9264b8') in 0.059801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/PolygonOffice/Models/SM_Prop_SwissBall_01_Convex.asset
-  artifactKey: Guid(8ba6db54c1d096a4abef0120ae861a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_SwissBall_01_Convex.asset using Guid(8ba6db54c1d096a4abef0120ae861a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dff2798eef62573abf25c0633023f2e') in 0.014850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/PolygonOffice/Models/SM_Prop_PoolBall_03_Convex.asset
-  artifactKey: Guid(9f3c94947ee0d634196142e98e9427f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_PoolBall_03_Convex.asset using Guid(9f3c94947ee0d634196142e98e9427f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7fc1b30fdcb65db828e90332916342') in 0.031176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/PolygonOffice/Models/SM_Prop_PoolBall_02_Convex.asset
-  artifactKey: Guid(e00e6b29b2e0def48802913fefc2ccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_PoolBall_02_Convex.asset using Guid(e00e6b29b2e0def48802913fefc2ccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e9f7507fe75cc5cba39ee1d8a11d93') in 0.020315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/PolygonOffice/Models/SM_Prop_PoolBall_01.fbx
-  artifactKey: Guid(e712f20da500cd34c856a8118ea129b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_PoolBall_01.fbx using Guid(e712f20da500cd34c856a8118ea129b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b624535f90387df2b5c4e4f8bf0d3da') in 0.023326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/PolygonOffice/Models/SM_Prop_PoolBall_03.fbx
-  artifactKey: Guid(23a0fe00f578bd749941954ffccfb884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonOffice/Models/SM_Prop_PoolBall_03.fbx using Guid(23a0fe00f578bd749941954ffccfb884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928aecc699bd969362ec1c346e046e12') in 0.093962 seconds 
+  path: Assets/PolygonOffice/Models/SM_Prop_Cup_Coffee_Disposable_Open_01.fbx
+  artifactKey: Guid(b5e62c6d4d948084891a21a554711e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonOffice/Models/SM_Prop_Cup_Coffee_Disposable_Open_01.fbx using Guid(b5e62c6d4d948084891a21a554711e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6ed8511f94ef28a51dcff5edf0ddd8') in 0.037263 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.024203 seconds.
+Registered in 0.019382 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.91 ms.
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.64 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.779 seconds
+- Completed reload, in  1.876 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1779ms)
-		BeginReloadAssembly (235ms)
+	ReloadAssembly (1877ms)
+		BeginReloadAssembly (325ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (97ms)
-		EndReloadAssembly (1434ms)
-			LoadAssemblies (192ms)
+			CreateAndSetChildDomain (155ms)
+		EndReloadAssembly (1449ms)
+			LoadAssemblies (208ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (444ms)
+			SetupTypeCache (503ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (531ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (168ms)
-				ProcessInitializeOnLoadAttributes (323ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.47 ms.
-Unloading 1969 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 213.1 MB.
-System memory in use after: 213.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2516.
-Total: 3.709590 ms (FindLiveObjects: 0.168960 ms CreateObjectMapping: 0.069020 ms MarkObjects: 3.392683 ms  DeleteObjects: 0.077813 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010657 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.52 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.648 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1648ms)
-		BeginReloadAssembly (153ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (1381ms)
-			LoadAssemblies (122ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (490ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (489ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (540ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (300ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.47 ms.
-Unloading 1969 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 213.4 MB.
-System memory in use after: 213.5 MB.
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.77 ms.
+Unloading 1970 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.8 MB.
+System memory in use after: 212.9 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2520.
-Total: 3.098753 ms (FindLiveObjects: 0.191745 ms CreateObjectMapping: 0.074808 ms MarkObjects: 2.764690 ms  DeleteObjects: 0.066724 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2517.
+Total: 3.627314 ms (FindLiveObjects: 0.211309 ms CreateObjectMapping: 0.089360 ms MarkObjects: 3.227967 ms  DeleteObjects: 0.097792 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -376,104 +296,48 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011139 seconds.
+Registered in 0.106259 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.52 ms.
+Refreshing native plugins compatible for Editor in 18.50 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 6.26 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.480 seconds
+- Completed reload, in 15.630 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1480ms)
-		BeginReloadAssembly (202ms)
+	ReloadAssembly (15635ms)
+		BeginReloadAssembly (661ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (33ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (123ms)
-		EndReloadAssembly (1193ms)
-			LoadAssemblies (98ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (338ms)
+		EndReloadAssembly (14685ms)
+			LoadAssemblies (677ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (510ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (383ms)
+			SetupTypeCache (5010ms)
+			ReleaseScriptCaches (15ms)
+			RebuildScriptCaches (472ms)
+			SetupLoadedEditorAssemblies (5211ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (231ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (142ms)
+				SetLoadedEditorAssemblies (21ms)
+				RefreshPlugins (25ms)
+				BeforeProcessingInitializeOnLoad (2812ms)
+				ProcessInitializeOnLoadAttributes (2128ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.49 ms.
-Unloading 1969 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 213.6 MB.
-System memory in use after: 213.7 MB.
+Refreshing native plugins compatible for Editor in 2.28 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 1.55 ms.
+Unloading 1970 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.2 MB.
+System memory in use after: 213.3 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2524.
-Total: 3.016696 ms (FindLiveObjects: 0.163528 ms CreateObjectMapping: 0.072894 ms MarkObjects: 2.714232 ms  DeleteObjects: 0.065229 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012215 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.54 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.691 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1692ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (75ms)
-		EndReloadAssembly (1450ms)
-			LoadAssemblies (104ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (558ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (97ms)
-			SetupLoadedEditorAssemblies (475ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (173ms)
-				ProcessInitializeOnLoadAttributes (270ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 1.00 ms.
-Unloading 1969 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 213.7 MB.
-System memory in use after: 213.8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2528.
-Total: 4.062280 ms (FindLiveObjects: 0.258838 ms CreateObjectMapping: 0.129601 ms MarkObjects: 3.598163 ms  DeleteObjects: 0.074431 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2521.
+Total: 6.991210 ms (FindLiveObjects: 0.449120 ms CreateObjectMapping: 0.166598 ms MarkObjects: 6.230748 ms  DeleteObjects: 0.142661 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
