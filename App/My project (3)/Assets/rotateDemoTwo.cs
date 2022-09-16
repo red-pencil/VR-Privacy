@@ -73,7 +73,7 @@ public class rotateDemoTwo : MonoBehaviour
                 break;
 
              case myEnum.quaternion_slerp:
-                transform.rotation = Quaternion.Slerp(from.rotation, to.rotation, timeCount * timeSpeed);
+                transform.rotation = Quaternion.Slerp(transform.rotation, to.rotation, timeCount * timeSpeed);
                 timeCount = timeCount + Time.deltaTime;
                 if (timeCount*timeSpeed > 1.0f)
                 {

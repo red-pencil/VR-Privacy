@@ -10,6 +10,7 @@ public class movingItem : MonoBehaviour
     public float timeDelay = 0.0f;
     public float timeCount = 0.0f;
     public float timeSpeed=0.1f;
+    public float timeDelaySet = 0.0f;
     public Transform from;
     public Transform to;
 
@@ -20,8 +21,11 @@ public class movingItem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        timeDelay = 0;
+        timeCount = 0;
+
         to = followTarget;
-        from = this.transform;
+        from = transform;
         tempIntial = new Vector3(transform.localEulerAngles.x, transform.localEulerAngles.y, transform.localEulerAngles.z);
         tempEnd = new Vector3(followTarget.localEulerAngles.x, followTarget.localEulerAngles.y, followTarget.localEulerAngles.z);
     }
@@ -33,20 +37,34 @@ public class movingItem : MonoBehaviour
         //transform.rotation = Quaternion.Slerp(transform.rotation, followTarget.rotation, timeCount * timeSpeed);
         //transform.localEulerAngles = new Vector3(0, Mathf.LerpAngle(transform.localEulerAngles.y, targetAngle, timeCount * timeSpeed), 0);
 
-        timeCount = timeCount + Time.deltaTime;
+        
         //Debug.Log("from:" + Quaternion.Euler(tempIntial.x, tempIntial.y, tempIntial.z));
-        timeDelay = timeDelay + Time.deltaTime;
+        
         //Debug.Log("to:" + followTarget.rotation);
-        if (timeDelay >= 5)
+        if (timeDelay >= timeDelaySet)
         {
+            timeCount = timeCount + Time.deltaTime;
+            //transform.rotation = followTarget.rotation;
+            //tempEnd = new Vector3(followTarget.localEulerAngles.x, followTarget.localEulerAngles.y, followTarget.localEulerAngles.z);
+        //} else
+        //{
+            transform.rotation = Quaternion.Slerp(transform.rotation, followTarget.rotation, timeCount * timeSpeed);
+            transform.position = new Vector3(Mathf.Lerp(transform.position.x, followTarget.position.x, timeCount * timeSpeed),
+                                            transform.position.y,
+                                            Mathf.Lerp(transform.position.z, followTarget.position.z, timeCount * timeSpeed));
+        }
+
+        if ((transform.rotation == followTarget.rotation) 
+        && (transform.position.x == followTarget.position.x) 
+        && (transform.position.z == followTarget.position.z))
+        {
+            
             timeDelay = 0;
             timeCount = 0;
-            transform.rotation = followTarget.rotation;
-            //tempEnd = new Vector3(followTarget.localEulerAngles.x, followTarget.localEulerAngles.y, followTarget.localEulerAngles.z);
         } else
         {
-            transform.rotation = Quaternion.Slerp(transform.rotation, followTarget.rotation, timeCount * timeSpeed);
-            transform.position = new Vector3(Mathf.Lerp(transform.position.x, followTarget.position.x, timeCount * timeSpeed), transform.position.y, Mathf.Lerp(transform.position.z, followTarget.position.z, timeCount * timeSpeed));
+            timeDelay = timeDelay + Time.deltaTime;
         }
+
     }
 }   
