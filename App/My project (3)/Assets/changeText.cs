@@ -29,26 +29,31 @@ public class changeText : MonoBehaviour
 
     }
 
-    IEnumerator ShowIconText(float waitTime)
+    IEnumerator ShowIconText(float waitTime = 2.0f)
     {
-
         icon.SetActive(true);
         targetText.text = "";
-        //Print the time of when the function is first called.
-        Debug.Log("Started Coroutine at timestamp : " + Time.time);
 
-        //yield on a new YieldInstruction that waits for 5 seconds.
+        Debug.Log("Time = " + Time.time);
         yield return new WaitForSeconds(waitTime);
+        Debug.Log("Time = " + Time.time);
 
         icon.SetActive(false);
-        targetText.text = textGroup[0];
-        //After we have waited 5 seconds print the time again.
-        Debug.Log("Finished Coroutine at timestamp : " + Time.time);
+        
+        for (int i=0; i<textGroup.Length; i++)
+        {
+            targetText.text = textGroup[i];
+            yield return new WaitForSeconds(1);
+        }
 
+        Debug.Log("Time = " + Time.time);
         yield return new WaitForSeconds(waitTime);
+        Debug.Log("Time = " + Time.time);
 
         icon.SetActive(true);
         targetText.text = "";
-         Debug.Log("Timestamp : " + Time.time);
+
+
     }
+
 }
