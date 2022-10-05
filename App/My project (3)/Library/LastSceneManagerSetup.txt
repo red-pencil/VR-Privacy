@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/town.unity
+- path: Assets/MY FOLDER/New Scenes/office.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
