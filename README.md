@@ -1,2 +1,0 @@
-# VR Privacy
- VR Privacy
