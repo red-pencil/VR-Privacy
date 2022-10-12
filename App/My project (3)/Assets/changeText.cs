@@ -27,6 +27,8 @@ public class changeText : MonoBehaviour
             displayOn = false;
         }
 
+        StartCoroutine(ShowIconText(2));
+
     }
 
     IEnumerator ShowIconText(float waitTime = 2.0f)
