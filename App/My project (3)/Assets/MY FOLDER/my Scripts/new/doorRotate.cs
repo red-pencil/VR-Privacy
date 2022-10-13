@@ -29,7 +29,7 @@ public class doorRotate : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.O))
         {
             doorMove = true;
-            doorOpen = true;
+            doorOpen = !doorOpen;
         }
         
         if (doorMove)
