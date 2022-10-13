@@ -2905,7 +2905,7 @@ Transform:
   m_Children:
   - {fileID: 1981921855}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &260837399
 GameObject:
@@ -3071,7 +3071,7 @@ Transform:
   - {fileID: 922541443}
   - {fileID: 1516868612}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &268853870
 GameObject:
@@ -11989,7 +11989,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1025741072
 Transform:
   m_ObjectHideFlags: 0
@@ -12889,7 +12889,7 @@ Transform:
   - {fileID: 2093981848}
   - {fileID: 955352783}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1106958491
 GameObject:
@@ -14091,7 +14091,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1188614588
 Transform:
   m_ObjectHideFlags: 0
@@ -15756,7 +15756,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1305755681}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb7c315e2f09fa5438aefca8ec8a6be7, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c18b69ca63a17f47877ada975a4733a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1309943142
@@ -22685,7 +22685,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1789838305
 Transform:
   m_ObjectHideFlags: 0
