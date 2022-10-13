@@ -58,7 +58,6 @@ public class movingItem : MonoBehaviour
         && (transform.position.x == followTarget.position.x) 
         && (transform.position.z == followTarget.position.z))
         {
-            
             timeDelay = 0;
             timeCount = 0;
         } else
