@@ -10,6 +10,7 @@ public class movingItemTrigger : MonoBehaviour
     public float timeCount;
 
     float originalHeight;
+    public float hiddingHeight = 10f;
    
 
 
@@ -28,13 +29,13 @@ public class movingItemTrigger : MonoBehaviour
             //gameObject.SetActive(true);
             //for (float timeCount = 0; timeCount * timeSpeed <1; timeCount = timeCount + Time.deltaTime)
             
-            gameObject.transform.position = new Vector3 (gameObject.transform.position.x, Mathf.Lerp(10f, originalHeight, timeCount * timeSpeed), gameObject.transform.position.z);
+            gameObject.transform.position = new Vector3 (gameObject.transform.position.x, Mathf.Lerp(hiddingHeight, originalHeight, timeCount * timeSpeed), gameObject.transform.position.z);
             timeCount = timeCount + Time.deltaTime;
             
         } else
         {
             //gameObject.SetActive(false);
-            gameObject.transform.position = new Vector3 (gameObject.transform.position.x, 10f, gameObject.transform.position.z);
+            gameObject.transform.position = new Vector3 (gameObject.transform.position.x, hiddingHeight, gameObject.transform.position.z);
             timeCount = 0;
 
         }
