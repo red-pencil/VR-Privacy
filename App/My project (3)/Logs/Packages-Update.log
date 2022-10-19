@@ -55,3 +55,13 @@ The following packages were updated:
   com.unity.collab-proxy from version 1.15.18 to 1.17.0
   com.unity.ide.visualstudio from version 2.0.15 to 2.0.16
   com.unity.xr.oculus from version 1.12.0 to 1.12.1
+
+=== Wed Oct 19 00:20:23 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.collab-proxy from version 1.17.0 to 1.17.2
+  com.unity.ide.rider from version 2.0.7 to 3.0.15
+  com.unity.xr.windowsmr from version 4.6.3 to 4.6.4

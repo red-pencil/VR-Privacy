@@ -19,7 +19,7 @@ public class triggerDetector : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        triggerOn = (triggerStayName == "DummyPlayer")? true: false;
+        triggerOn = (triggerStayName == onlyTrigger.name)? true: false;
     }
 
     private void OnTriggerEnter(Collider other) {
