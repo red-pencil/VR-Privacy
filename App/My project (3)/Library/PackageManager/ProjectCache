@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638017500239029897
-    m_Hash: 473557267
+      ticks: 638018258529287089
+    m_Hash: 2443691578
   m_LockFileStatus:
     m_FilePath: C:/Users/Lichao/Documents/GitHub/VR-Privacy/App/My project (3)/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638017500518554490
-    m_Hash: 4150430203
+      ticks: 638018258529297088
+    m_Hash: 1615597384
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -4244,11 +4244,13 @@ m_PackageAssets:
         - 1.0.6
         - 1.1.0
         - 1.1.1
+        - 1.1.2
         compatible:
         - 1.0.6
         - 1.1.0
         - 1.1.1
-        verified: 1.1.1
+        - 1.1.2
+        verified: 1.1.2
       dependencies:
       - name: com.unity.modules.subsystems
         version: 1.0.0

@@ -28930,9 +28930,9 @@ GameObject:
   - component: {fileID: 727890549}
   - component: {fileID: 727890548}
   - component: {fileID: 727890547}
-  - component: {fileID: 727890546}
   - component: {fileID: 727890545}
   - component: {fileID: 727890544}
+  - component: {fileID: 727890546}
   m_Layer: 0
   m_Name: 4_ghost
   m_TagString: Untagged
@@ -28996,7 +28996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08073c76ec518f043ae76d5801a26161, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  followTarget: {fileID: 0}
+  followTarget: {fileID: 1976583899}
   timeDelay: 0
   timeCount: 0
   timeSpeed: 0.005
@@ -40251,7 +40251,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031978736}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47462f6543cc6cf4db66ea01ab6a9903, type: 3}
   m_Name: 
@@ -51233,7 +51233,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1349212233
 Transform:
   m_ObjectHideFlags: 0
@@ -60493,7 +60493,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1602076434}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.11, y: 1.5, z: -18.69}
+  m_LocalPosition: {x: -3.11, y: 0, z: -18.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1649234549}
@@ -67571,7 +67571,7 @@ MonoBehaviour:
   triggerExitName: 
   triggerStayName: 
   onlyTriggerOn: 1
-  onlyTrigger: {fileID: 0}
+  onlyTrigger: {fileID: 1976583898}
   triggerOn: 0
 --- !u!65 &1769084751
 BoxCollider:
@@ -73475,7 +73475,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1920536027
 Transform:
   m_ObjectHideFlags: 0
@@ -75371,7 +75371,7 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 5
+  m_Height: 3
   m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3
@@ -81665,7 +81665,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2144902114
 Transform:
   m_ObjectHideFlags: 0
