@@ -37,7 +37,7 @@ public class triggerDetector : MonoBehaviour
     private void OnTriggerExit(Collider other) {
         if (everyPlayer)
         {
-            triggerOn = true;
+            triggerOn = false;
         }
         else
         {

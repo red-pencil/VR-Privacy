@@ -20,7 +20,10 @@ public class changeText : MonoBehaviour
     void Start()
     {
         //Start the coroutine we define below named ExampleCoroutine.
-        StartCoroutine(ShowIconText(timeInterval));
+        //StartCoroutine(ShowIconText(1));
+       
+        timeCount = timeInterval*(textGroup.Length + 3);
+        Debug.Log("Start Func Time = " + Time.time + "!" + timeCount);
     }
 
     void FixedUpdate()
@@ -36,7 +39,7 @@ public class changeText : MonoBehaviour
         if (!iconOnly)
         {
             timeCount = timeCount + Time.deltaTime;
-            if (timeCount > 2*(textGroup.Length + 3))
+            if (timeCount > timeInterval*(textGroup.Length + 3))
             {
                 timeCount = 0;
                 StartCoroutine(ShowIconText(timeInterval));
@@ -48,13 +51,15 @@ public class changeText : MonoBehaviour
     }
 
     IEnumerator ShowIconText(float waitTime = 2.0f)
-    {
+    {   
+
+        Debug.Log("Time Interval = " + waitTime);
         icon.SetActive(true);
         targetText.text = "";
 
-        Debug.Log("Time = " + Time.time);
+        Debug.Log("Icon End Time = " + Time.time + "!" + timeCount);
         yield return new WaitForSeconds(waitTime);
-        Debug.Log("Time = " + Time.time);
+        Debug.Log("Text Start Time = " + Time.time + "!" + timeCount);
 
         icon.SetActive(false);
         
@@ -64,9 +69,9 @@ public class changeText : MonoBehaviour
             yield return new WaitForSeconds(waitTime);
         }
 
-        Debug.Log("Time = " + Time.time);
+        Debug.Log("Text End Time = " + Time.time + "!" + timeCount);
         yield return new WaitForSeconds(waitTime);
-        Debug.Log("Time = " + Time.time);
+        Debug.Log("Icon Start Time = " + Time.time + "!" + timeCount);
 
         icon.SetActive(true);
         targetText.text = "";
