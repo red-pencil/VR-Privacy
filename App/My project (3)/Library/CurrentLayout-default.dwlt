@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 7912
+  controlID: 4893
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 7913
+  controlID: 4894
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 7914
+  controlID: 4895
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 333, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 7836
+  controlID: 4782
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -420,7 +420,7 @@ MonoBehaviour:
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
-  m_XRRenderMode: 0
+  m_XRRenderMode: 2
   m_RenderTexture: {fileID: 0}
 --- !u!114 &15
 MonoBehaviour:
@@ -450,10 +450,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: dc460000
-      m_LastClickedID: 18140
-      m_ExpandedIDs: 6cfbffff2c430000364300001c4600006a470000ce490000364b0000
+      scrollPos: {x: 0, y: 155.33334}
+      m_SelectedIDs: 8c4a0000
+      m_LastClickedID: 19084
+      m_ExpandedIDs: 6cfbffffc0450000f2450000524600006e4600002a470000ca47000034490000184b00004c4b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -629,9 +629,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.4078765, y: 0.69768715, z: -6.1088996}
+    m_Target: {x: -0.9430893, y: 0.59122086, z: -1.474032}
     speed: 2
-    m_Value: {x: 0.4078765, y: 0.69768715, z: -6.1088996}
+    m_Value: {x: -0.9430893, y: 0.59122086, z: -1.474032}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -678,13 +678,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.14326788, y: 0.8264684, z: -0.24293475, w: 0.48734367}
+    m_Target: {x: 0.13086112, y: 0.5867788, z: -0.09680215, w: 0.7932302}
     speed: 2
-    m_Value: {x: 0.14326788, y: 0.8264684, z: -0.24293475, w: 0.4873437}
+    m_Value: {x: 0.13086113, y: 0.5867788, z: -0.09680215, w: 0.79323024}
   m_Size:
-    m_Target: 7.6709495
+    m_Target: 1.2226317
     speed: 2
-    m_Value: 7.6709495
+    m_Value: 1.2226317
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -736,7 +736,7 @@ MonoBehaviour:
     height: 335.66666
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: fen
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -748,21 +748,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/MY FOLDER/my Motion
+    - Assets/MY FOLDER
     m_Globs: []
-    m_OriginalText: 
+    m_OriginalText: fen
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/MY FOLDER/my Motion
+  - Assets/MY FOLDER
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Lichao\Documents\GitHub\VR-Privacy\App\My project (3)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 68.33334}
-    m_SelectedIDs: c47b0000
-    m_LastClickedID: 31684
+    scrollPos: {x: 0, y: 188.33334}
+    m_SelectedIDs: f0550000
+    m_LastClickedID: 22000
     m_ExpandedIDs: 00000000e0550000e2550000e4550000e6550000e8550000ea550000ec550000ee550000f0550000f255000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
