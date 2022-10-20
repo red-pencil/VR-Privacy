@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class doorOpenTrigger : MonoBehaviour
 {
-    public GameObject target;
+    public GameObject targetPlayer;
+    public bool everyPlayer = true;
     public GameObject poster1, poster2;
     public GameObject door1, door2;
     public doorRotate doorScript1, doorScript2;
@@ -26,7 +27,7 @@ public class doorOpenTrigger : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.name == target.name)
+        if ( everyPlayer || other.name == targetPlayer.name)
         {
             poster1.SetActive(true);
             poster2.SetActive(true);
@@ -35,7 +36,7 @@ public class doorOpenTrigger : MonoBehaviour
 
     void OnTriggerExit(Collider other) 
     {
-        if (other.name == target.name)
+        if ( everyPlayer || other.name == targetPlayer.name)
         {
             poster1.SetActive(false);
             poster2.SetActive(false);

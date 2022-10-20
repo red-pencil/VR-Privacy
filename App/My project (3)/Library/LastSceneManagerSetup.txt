@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/MY FOLDER/New Scenes/town.unity
+- path: Assets/MY FOLDER/New Scenes/town VR.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

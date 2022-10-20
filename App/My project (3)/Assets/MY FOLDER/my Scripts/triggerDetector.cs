@@ -6,8 +6,9 @@ public class triggerDetector : MonoBehaviour
 {
 
     public string triggerEnterName, triggerExitName, triggerStayName;
-    public bool onlyTriggerOn;
-    public GameObject onlyTrigger;
+    public bool targetPlayerOn;
+    public GameObject targetPlayer;
+    public bool everyPlayer;
     public bool triggerOn;
 
     // Start is called before the first frame update
@@ -19,21 +20,42 @@ public class triggerDetector : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        triggerOn = (triggerStayName == "DummyPlayer")? true: false;
+        if (!everyPlayer) triggerOn = (triggerStayName == targetPlayer.name)? true: false;
     }
 
     private void OnTriggerEnter(Collider other) {
-        triggerEnterName = (onlyTriggerOn && other.name != onlyTrigger.name)? triggerEnterName: other.name;
+        if (everyPlayer)
+        {
+            triggerOn = true;
+        }
+        else
+        {
+            triggerEnterName = (targetPlayerOn && other.name != targetPlayer.name)? triggerEnterName: other.name;
+        }
     }
 
     private void OnTriggerExit(Collider other) {
-        triggerExitName = (onlyTriggerOn && other.name != onlyTrigger.name)? triggerExitName: other.name;
-        triggerEnterName = (triggerEnterName == other.name)? null: triggerEnterName; 
-        triggerStayName = (triggerStayName == other.name)? null: triggerStayName; 
+        if (everyPlayer)
+        {
+            triggerOn = true;
+        }
+        else
+        {
+            triggerExitName = (targetPlayerOn && other.name != targetPlayer.name)? triggerExitName: other.name;
+            triggerEnterName = (triggerEnterName == other.name)? null: triggerEnterName; 
+            triggerStayName = (triggerStayName == other.name)? null: triggerStayName; 
+        }
         
     }
 
     private void OnTriggerStay(Collider other) {
-        triggerStayName = (onlyTriggerOn && other.name != onlyTrigger.name)? triggerStayName: other.name;
+        if (everyPlayer)
+        {
+            triggerOn = true;
+        }
+        else
+        {
+            triggerStayName = (targetPlayerOn && other.name != targetPlayer.name)? triggerStayName: other.name;
+        }
     }
 }
