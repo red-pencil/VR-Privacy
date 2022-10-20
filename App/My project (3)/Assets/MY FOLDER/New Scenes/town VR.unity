@@ -14756,7 +14756,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1167400597}
   m_Layer: 0
-  m_Name: 6_on body
+  m_Name: 6_scene_on_body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
