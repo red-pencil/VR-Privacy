@@ -13025,7 +13025,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1025741072
 Transform:
   m_ObjectHideFlags: 0
@@ -14761,7 +14761,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1167400597
 Transform:
   m_ObjectHideFlags: 0
@@ -24876,7 +24876,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1789838305
 Transform:
   m_ObjectHideFlags: 0
@@ -32430,7 +32430,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3173659834778378377, guid: ec5e6c1cf7379244f8376cb6dd7c9afd, type: 3}
+  - {fileID: 2100000, guid: ac99c6c5cdc99a74babe281ab452a497, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -33334,6 +33334,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Display Multi
+      objectReference: {fileID: 0}
+    - target: {fileID: 1365946175790126090, guid: c6bbf3a4bb071ed43b1aca4e2a0fc1c7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2877280504030190726, guid: c6bbf3a4bb071ed43b1aca4e2a0fc1c7,
         type: 3}

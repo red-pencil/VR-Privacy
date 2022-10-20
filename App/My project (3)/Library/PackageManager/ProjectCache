@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638018410072760909
+      ticks: 638018723098932118
     m_Hash: 1004287850
   m_LockFileStatus:
     m_FilePath: C:/Users/Lichao/Documents/GitHub/VR-Privacy/App/My project (3)/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638018410072760909
+      ticks: 638018723098942118
     m_Hash: 1324679521
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -3810,6 +3810,7 @@ m_PackageAssets:
         - 1.4.1
         - 1.4.2
         - 1.4.3
+        - 1.5.2
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -3826,6 +3827,7 @@ m_PackageAssets:
         - 1.4.1
         - 1.4.2
         - 1.4.3
+        - 1.5.2
         verified: 1.4.3
       dependencies:
       - name: com.unity.modules.unitywebrequest
