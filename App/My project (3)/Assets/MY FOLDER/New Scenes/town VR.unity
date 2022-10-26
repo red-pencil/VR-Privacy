@@ -20098,7 +20098,7 @@ MonoBehaviour:
   textGroup:
   - Privacy Alert
   - Recording Inside the Fence
-  - Press Key to Open
+  - Touch to Open
   displayOn: 0
   timeInterval: 2
   timeCount: 0
@@ -21278,6 +21278,7 @@ GameObject:
   - component: {fileID: 1552950198}
   - component: {fileID: 1552950197}
   - component: {fileID: 1552950196}
+  - component: {fileID: 1552950202}
   m_Layer: 2
   m_Name: PlayerController DistanceGrab
   m_TagString: Untagged
@@ -21383,6 +21384,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1552950202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552950195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c91b393d0988043abb51ec4a141bf703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  rotationSpeed: 100
+  m_head: {fileID: 695988464}
+  m_Rigidbody: {fileID: 0}
+  m_Thrust: 300
+  ratioH: 0
+  ratioV: 0
+  rangeH: 0
+  rangeV: 0
+  headFixed: 0
 --- !u!1 &1553401451
 GameObject:
   m_ObjectHideFlags: 0

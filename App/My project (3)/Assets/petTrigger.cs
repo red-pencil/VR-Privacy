@@ -9,8 +9,6 @@ public class petTrigger : MonoBehaviour
     PlayableDirector ani;
     public string triggerName;
     
-
-
     void Start()
     {
         ani = aniControl.GetComponent<PlayableDirector>();
@@ -28,8 +26,15 @@ public class petTrigger : MonoBehaviour
 
         if (other.name == "handTouchTrigger")
         {
-            ani.Stop();
+            ani.Pause();
+            StartCoroutine(aniResume(3));
         }
 
+    }
+
+    IEnumerator aniResume(float waitTime = 3.0f) {
+
+        yield return new WaitForSeconds(waitTime);
+        ani.Resume();
     }
 }
