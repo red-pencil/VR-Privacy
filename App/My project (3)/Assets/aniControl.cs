@@ -7,6 +7,7 @@ public class aniControl : MonoBehaviour
 {
 
     PlayableDirector ani;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +32,7 @@ public class aniControl : MonoBehaviour
             }
         }
     }
+
 
 
 }
