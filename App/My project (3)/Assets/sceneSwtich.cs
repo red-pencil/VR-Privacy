@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class sceneSwtich : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject scene;
+    public bool sceneOn;
+
     void Start()
     {
-        
+        scene.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        sceneOn = GetComponent<sceneState>().switchOn;
+
+        if (sceneOn)
+        {
+            scene.SetActive(true);
+        } else {
+            scene.SetActive(false);
+        }
+
+
     }
 }
