@@ -15,8 +15,14 @@ public class doorOpenTrigger : MonoBehaviour
     {
         //doorScript1 = door1.GetComponent<doorRotate>;
         //doorScript2 = door2.GetComponent<doorRotate>;
-        poster1.SetActive(false);
-        poster2.SetActive(false);
+
+        //poster1.SetActive(false);
+        //poster2.SetActive(false);
+
+        poster1.SetActive(true);
+        poster2.SetActive(true);
+        poster1.GetComponent<changeText>().iconOnly = true;
+        poster2.GetComponent<changeText>().iconOnly = true;
     }
 
 
@@ -29,8 +35,11 @@ public class doorOpenTrigger : MonoBehaviour
     {
         if ( everyPlayer || other.name == targetPlayer.name)
         {
-            poster1.SetActive(true);
-            poster2.SetActive(true);
+            poster1.GetComponent<changeText>().iconOnly = false;
+            //poster2.GetComponent<changeText>().iconOnly = false;
+            
+            //poster1.SetActive(true);
+            //poster2.SetActive(true);
         }
     }
 
@@ -38,8 +47,11 @@ public class doorOpenTrigger : MonoBehaviour
     {
         if ( everyPlayer || other.name == targetPlayer.name)
         {
-            poster1.SetActive(false);
-            poster2.SetActive(false);
+            poster1.GetComponent<changeText>().iconOnly = true;
+            //poster2.GetComponent<changeText>().iconOnly = true;
+            
+            //poster1.SetActive(false);
+            //poster2.SetActive(false);
         }
     }
 }

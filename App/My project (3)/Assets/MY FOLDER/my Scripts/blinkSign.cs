@@ -15,7 +15,7 @@ public class blinkSign : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        targetSign.SetActive(false);
+        //targetSign.SetActive(false);
     }
 
     // Update is called once per frame
@@ -24,9 +24,7 @@ public class blinkSign : MonoBehaviour
 
         if (targetSign.activeSelf)
         {
-            float scale;
-            scale = Mathf.Lerp(0, 1, t);
-            targetSign.transform.localScale = new Vector3 (scale, scale, scale);
+            
         }
 
         t += timeSpeed * Time.deltaTime;
@@ -37,13 +35,27 @@ public class blinkSign : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) {
 
-        targetSign.SetActive(true);
+        //targetSign.SetActive(true);
 
     }
 
     private void OnTriggerExit(Collider other) {
 
-        targetSign.SetActive(false);
+        //targetSign.SetActive(false);
+        targetSign.transform.localScale = new Vector3 (0.5f, 0.5f, 0.5f);
+
+    }
+
+    private void OnTriggerStay(Collider other) {
+
+        BlinkSign(t);
+
+    }
+
+    private void BlinkSign(float t) {
+        float scale;
+        scale = Mathf.Lerp(0, 1, t);
+        targetSign.transform.localScale = new Vector3 (scale, scale, scale);
 
     }
 }

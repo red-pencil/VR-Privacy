@@ -45,6 +45,8 @@ public class changeText : MonoBehaviour
                 StartCoroutine(ShowIconText(timeInterval));
             }
 
+        } else {
+            targetText.text = "";
         }
         
 
